@@ -5,7 +5,7 @@
       " Individual Policy Detail": {
         "_entityPhysicalName": "s_indvdl_plcy_dtl",
         "_entityDesc": "This table contains the base Policy information for life, health and annuity policies. Pending, in-force and terminated policies are all contained in this table and are identified by a status code.",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_dtl",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_dtl",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -362,7 +362,7 @@
       " Individual Policy Coverage": {
         "_entityPhysicalName": "s_indvdl_plcy_cvrg",
         "_entityDesc": "This table contains the base Coverage information related to a specific Policy. This table cab be considered as sub table for Individual Policy Detail",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_cvrg",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_cvrg",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -544,7 +544,7 @@
       " Individual Policy Accounting": {
         "_entityPhysicalName": "s_indvdl_plcy_accntng",
         "_entityDesc": "This table contains historical accounting entries. An accounting entry is created by System as financial functions are executed or by the user manually. The entries in this table have been posted to the account and printed on general ledger reports.",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_accntng",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_accntng",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -731,7 +731,7 @@
       " Individual Policy Beneficiary": {
         "_entityPhysicalName": "s_indvdl_plcy_bnfcry",
         "_entityDesc": "This table contains beneficiary/Nominee information related to a policy or coverage. Multiple benficiaries can be associated with one policy based on the company's acceptance.",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_bnfcry",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_bnfcry",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -808,7 +808,7 @@
       " Individual Policy Bonus Dividend": {
         "_entityPhysicalName": "s_indvdl_plcy_bns_dvdnd",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_bns_dvdnd",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_bns_dvdnd",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -885,7 +885,7 @@
       " Individual Policy Payout": {
         "_entityPhysicalName": "s_indvdl_plcy_pyout",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_pyout",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_pyout",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -997,7 +997,7 @@
       " Individual Policy Coverage Customer": {
         "_entityPhysicalName": "s_indvdl_plcy_cvrg_cstmr",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_cvrg_cstmr",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_cvrg_cstmr",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -1049,7 +1049,7 @@
       " Individual Policy Coverage History": {
         "_entityPhysicalName": "s_indvdl_plcy_cvrg_hstry",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_cvrg_hstry",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_cvrg_hstry",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -1106,7 +1106,7 @@
       " Individual Policy Coverage Agent": {
         "_entityPhysicalName": "s_indvdl_plcy_cvrg_agnt",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_cvrg_agnt",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_cvrg_agnt",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -1193,7 +1193,7 @@
       " Individual Policy Customer Relation": {
         "_entityPhysicalName": "s_indvdl_plcy_cstmr_rltn",
         "_entityDesc": "This table contains Policy Client information. A type code is used to identify the client's relationship to the policy. Customer can be associated with a policy as Owner, Trustee, Insured etc.",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_cstmr_rltn",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_cstmr_rltn",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -1250,7 +1250,7 @@
       " Individual Policy Customer Follow-up": {
         "_entityPhysicalName": "s_indvdl_plcy_cstmr_fllwp",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_cstmr_fllwp",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_cstmr_fllwp",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -1332,7 +1332,7 @@
       " Individual Policy Death Benefit": {
         "_entityPhysicalName": "s_indvdl_plcy_dth_bnft",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_dth_bnft",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_dth_bnft",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -1374,7 +1374,7 @@
       " Individual Policy Loan": {
         "_entityPhysicalName": "s_indvdl_plcy_loan",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_loan",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_loan",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -1471,7 +1471,7 @@
       " Individual Policy Agent": {
         "_entityPhysicalName": "s_indvdl_plcy_agnt",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_agnt",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_agnt",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -1508,7 +1508,7 @@
       " Individual Policy Payment Transaction": {
         "_entityPhysicalName": "s_indvdl_plcy_pymnt_trnsctn",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_pymnt_trnsctn",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_pymnt_trnsctn",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -1620,7 +1620,7 @@
       " Individual Policy Commission": {
         "_entityPhysicalName": "s_indvdl_plcy_cmmssn",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_plcy_cmmssn",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_plcy_cmmssn",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -1722,7 +1722,7 @@
       " Group Policy Detail": {
         "_entityPhysicalName": "s_grp_plcy_dtl",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_grp_plcy_dtl",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_grp_plcy_dtl",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -2024,7 +2024,7 @@
       " Group Policy Member": {
         "_entityPhysicalName": "s_grp_plcy_mmbr",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_grp_plcy_mmbr",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_grp_plcy_mmbr",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -2376,7 +2376,7 @@
       " Group Policy Benefit": {
         "_entityPhysicalName": "s_grp_plcy_bnft",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_grp_plcy_bnft",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_grp_plcy_bnft",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Policy Code",
@@ -2446,7 +2446,7 @@
       " Individual Application Proposer": {
         "_entityPhysicalName": "s_indvdl_applctn_prpsr",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_applctn_prpsr",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_applctn_prpsr",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Application Code",
@@ -3078,7 +3078,7 @@
       " Individual Application Detail": {
         "_entityPhysicalName": "s_indvdl_applctn_dtl",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_applctn_dtl",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_applctn_dtl",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Application Code",
@@ -3205,7 +3205,7 @@
       " Individual Application Coverage": {
         "_entityPhysicalName": "s_indvdl_applctn_cvrg",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_applctn_cvrg",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_applctn_cvrg",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Application Code",
@@ -3442,7 +3442,7 @@
       " Individual Application Underwriting Decision": {
         "_entityPhysicalName": "s_indvdl_applctn_undrwrtng_dcsn",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_applctn_undrwrtng_dcsn",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_applctn_undrwrtng_dcsn",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Application Code",
@@ -3809,7 +3809,7 @@
       " Individual Application Underwriting Output": {
         "_entityPhysicalName": "s_indvdl_applctn_undrwrtng_otpt",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_applctn_undrwrtng_otpt",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_applctn_undrwrtng_otpt",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Application Code",
@@ -3876,7 +3876,7 @@
       " Individual Application Insured": {
         "_entityPhysicalName": "s_indvdl_applctn_insrd",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_applctn_insrd",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_applctn_insrd",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Application Code",
@@ -4283,7 +4283,7 @@
       " Individual Application Nominee": {
         "_entityPhysicalName": "s_indvdl_applctn_nmnee",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_applctn_nmnee",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_applctn_nmnee",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Application Code",
@@ -4485,7 +4485,7 @@
       " Individual Application Welcome Call": {
         "_entityPhysicalName": "s_indvdl_applctn_wlcm_cll",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_applctn_wlcm_cll",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_applctn_wlcm_cll",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Application Code",
@@ -4562,7 +4562,7 @@
       " Individual Application Medical Information": {
         "_entityPhysicalName": "s_indvdl_applctn_mdcl_infrmt",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_applctn_mdcl_infrmt",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_applctn_mdcl_infrmt",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Application Code",
@@ -5077,7 +5077,7 @@
       " Customer Detail": {
         "_entityPhysicalName": "s_cstmr_dtl",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_cstmr_dtl",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_cstmr_dtl",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Customer Code",
@@ -5299,7 +5299,7 @@
       " Customer Name": {
         "_entityPhysicalName": "s_cstmr_nm",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_cstmr_nm",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_cstmr_nm",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Customer Code",
@@ -5376,7 +5376,7 @@
       " Customer Address": {
         "_entityPhysicalName": "s_cstmr_addrss",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_cstmr_addrss",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_cstmr_addrss",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Customer Code",
@@ -5523,7 +5523,7 @@
       " Customer Contact": {
         "_entityPhysicalName": "s_cstmr_cntct",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_cstmr_cntct",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_cstmr_cntct",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Customer Code",
@@ -5565,7 +5565,7 @@
       " Customer Bank": {
         "_entityPhysicalName": "s_cstmr_bnk",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_cstmr_bnk",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_cstmr_bnk",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Customer Code",
@@ -5617,7 +5617,7 @@
       " Customer Family History": {
         "_entityPhysicalName": "s_cstmr_fmly_hstry",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_cstmr_fmly_hstry",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_cstmr_fmly_hstry",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Customer Code",
@@ -5694,7 +5694,7 @@
       " Customer Income": {
         "_entityPhysicalName": "s_cstmr_incm",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_cstmr_incm",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_cstmr_incm",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Customer Code",
@@ -5756,7 +5756,7 @@
       " Customer Other Insurance": {
         "_entityPhysicalName": "s_cstmr_othr_insrnc",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_cstmr_othr_insrnc",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_cstmr_othr_insrnc",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Customer Code",
@@ -5843,7 +5843,7 @@
       " Customer Employer": {
         "_entityPhysicalName": "s_cstmr_emplyr",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_cstmr_emplyr",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_cstmr_emplyr",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Customer Code",
@@ -5890,7 +5890,7 @@
       " Customer Credit Card": {
         "_entityPhysicalName": "s_cstmr_crdt_crd",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_cstmr_crdt_crd",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_cstmr_crdt_crd",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Customer Code",
@@ -5935,7 +5935,7 @@
       " Grievance Detail": {
         "_entityPhysicalName": "s_grvnc_dtl",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_grvnc_dtl",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_grvnc_dtl",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Grievance Code",
@@ -6570,7 +6570,7 @@
       " Channel": {
         "_entityPhysicalName": "s_chnnl",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_chnnl",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_chnnl",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Channel Code",
@@ -6642,7 +6642,7 @@
       " Sub Channel": {
         "_entityPhysicalName": "s_sb_chnnl",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_sb_chnnl",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_sb_chnnl",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Channel Code",
@@ -6737,7 +6737,7 @@
       " Branch": {
         "_entityPhysicalName": "s_brnch",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_brnch",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_brnch",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Branch Code",
@@ -6849,7 +6849,7 @@
       " Branch Hierarchy": {
         "_entityPhysicalName": "s_brnch_hrrchy",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_brnch_hrrchy",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_brnch_hrrchy",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Branch Code",
@@ -7029,7 +7029,7 @@
       " Agent": {
         "_entityPhysicalName": "s_agnt",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_agnt",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_agnt",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Agent Code",
@@ -7266,7 +7266,7 @@
       " Agent Movement": {
         "_entityPhysicalName": "s_agnt_mvmnt",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_agnt_mvmnt",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_agnt_mvmnt",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Agent Code",
@@ -7388,7 +7388,7 @@
       " Agent Hierarchy": {
         "_entityPhysicalName": "s_agnt_hrrchy",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_agnt_hrrchy",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_agnt_hrrchy",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Agent Code",
@@ -7825,7 +7825,7 @@
       " Agent Communication": {
         "_entityPhysicalName": "s_agnt_cmmnctn",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_agnt_cmmnctn",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_agnt_cmmnctn",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Agent Code",
@@ -7927,7 +7927,7 @@
       " Agent Bank": {
         "_entityPhysicalName": "s_agnt_bnk",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_agnt_bnk",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_agnt_bnk",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Agent Code",
@@ -8004,7 +8004,7 @@
       " Agent License": {
         "_entityPhysicalName": "s_agnt_lcns",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_agnt_lcns",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_agnt_lcns",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Agent Code",
@@ -8064,7 +8064,7 @@
       " Employee Detail": {
         "_entityPhysicalName": "s_emply_dtl",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_emply_dtl",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_emply_dtl",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Employee Code",
@@ -8234,7 +8234,7 @@
       " Grievance Closure": {
         "_entityPhysicalName": "s_grvnc_clsr",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_grvnc_clsr",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_grvnc_clsr",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Grievance Code",
@@ -8291,7 +8291,7 @@
       " Grievance Reopen Closure": {
         "_entityPhysicalName": "s_grvnc_rpn_clsr",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_grvnc_rpn_clsr",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_grvnc_rpn_clsr",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Grievance Code",
@@ -8351,7 +8351,7 @@
       " Reinsurance Account": {
         "_entityPhysicalName": "s_rnsrnc_accnt",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_rnsrnc_accnt",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_rnsrnc_accnt",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Reinsurance Account Code",
@@ -8436,7 +8436,7 @@
       " Account": {
         "_entityPhysicalName": "s_accnt",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_accnt",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_accnt",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Account Code",
@@ -8503,7 +8503,7 @@
       " Account Balance": {
         "_entityPhysicalName": "s_accnt_blnc",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_accnt_blnc",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_accnt_blnc",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Account Code",
@@ -8550,7 +8550,7 @@
       " Account Transaction": {
         "_entityPhysicalName": "s_accnt_tnrnsctn",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_accnt_tnrnsctn",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_accnt_tnrnsctn",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Account Code",
@@ -8650,7 +8650,7 @@
       " Campaign": {
         "_entityPhysicalName": "s_indvdl_cmpgn",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_indvdl_cmpgn",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_indvdl_cmpgn",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Campaign Code",
@@ -8880,7 +8880,7 @@
       " Training Detail": {
         "_entityPhysicalName": "s_trnng_dtl",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_trnng_dtl",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_trnng_dtl",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Training Code",
@@ -9010,7 +9010,7 @@
       " Claim Detail": {
         "_entityPhysicalName": "s_clm_dtl",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_clm_dtl",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_clm_dtl",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Claim Code",
@@ -9477,7 +9477,7 @@
       " Claim Intimation": {
         "_entityPhysicalName": "s_clm_intmtn",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_clm_intmtn",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_clm_intmtn",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Claim Code",
@@ -9649,7 +9649,7 @@
       " Claim Settlement": {
         "_entityPhysicalName": "s_clm_sttlmnt",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_clm_sttlmnt",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_clm_sttlmnt",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Claim Code",
@@ -9716,7 +9716,7 @@
       " Group Claim ": {
         "_entityPhysicalName": "s_grp_clm",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_grp_clm",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_grp_clm",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Claim Code",
@@ -10073,7 +10073,7 @@
       " Group Claim Detail": {
         "_entityPhysicalName": "s_grp_clm_dtl",
         "_entityDesc": "NaN",
-        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.health_ins_data_model.public.s_grp_clm_dtl",
+        "_physicalEntityURL": "http://10.221.46.89:8585/table/postres_data_life_ins_data_model.life_ins_data_model.public.s_grp_clm_dtl",
         "_attributes": [
           {
             "attributeLogicalName": "Hash Key Claim Code",
